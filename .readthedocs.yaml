@@ -6,9 +6,9 @@ build:
     python: "3.12"
   jobs:
     post_create_environment:
-      - pip install Sphinx, myst-parser, sphinx-copybutton
-      - pip install sphinxcontrib-apidoc, sphinx-autoapi
-      - pip install sphinxcontrib-programoutput, furo
+      - pip install Sphinx myst-parser sphinx-copybutton
+      - pip install sphinxcontrib-apidoc sphinx-autoapi
+      - pip install sphinxcontrib-programoutput furo
 
 
 sphinx:
